@@ -7,31 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3441EC32B4F358A007732EA /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3441EC22B4F358A007732EA /* Binding.swift */; };
 		C36221D92B4D95C200BF7A9A /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36221D82B4D95C200BF7A9A /* NavigationApp.swift */; };
 		C36221DB2B4D95C200BF7A9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36221DA2B4D95C200BF7A9A /* ContentView.swift */; };
 		C36221DD2B4D95C400BF7A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36221DC2B4D95C400BF7A9A /* Assets.xcassets */; };
 		C36221E02B4D95C400BF7A9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36221DF2B4D95C400BF7A9A /* Preview Assets.xcassets */; };
+		C36B46BF2B5C33C200092C2A /* JJNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = C36B46BE2B5C33C200092C2A /* JJNavigation */; };
 		C385FE582B4EF0D2005E58FB /* SheetContentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE572B4EF0D2005E58FB /* SheetContentWrapper.swift */; };
 		C3A7C8CA2B4EB9D500D3AA78 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8C92B4EB9D500D3AA78 /* TabCoordinator.swift */; };
-		C3A7C8CC2B4EC0D500D3AA78 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8CB2B4EC0D500D3AA78 /* NavigationRouter.swift */; };
-		C3A7C8CE2B4EC0F400D3AA78 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8CD2B4EC0F400D3AA78 /* Routable.swift */; };
 		C3A7C8D02B4EC11C00D3AA78 /* ProfileViewNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8CF2B4EC11C00D3AA78 /* ProfileViewNavigationRouter.swift */; };
-		C3A7C8D42B4EC64D00D3AA78 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8D32B4EC64D00D3AA78 /* View.swift */; };
 		C3A7C8D72B4EC6D800D3AA78 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8D62B4EC6D800D3AA78 /* MainTab.swift */; };
-		C3A7C8DB2B4EC76100D3AA78 /* SheetRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8DA2B4EC76100D3AA78 /* SheetRoutable.swift */; };
-		C3A7C8DD2B4EC77D00D3AA78 /* SheetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8DC2B4EC77D00D3AA78 /* SheetCoordinator.swift */; };
 		C3A7C8E42B4ECA1000D3AA78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8E32B4ECA1000D3AA78 /* HomeView.swift */; };
 		C3A7C8E62B4ECA2B00D3AA78 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8E52B4ECA2B00D3AA78 /* TicketsView.swift */; };
 		C3A7C8E82B4ECA3D00D3AA78 /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8E72B4ECA3D00D3AA78 /* PaymentsView.swift */; };
 		C3A7C8EA2B4ECA5100D3AA78 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8E92B4ECA5100D3AA78 /* ExploreView.swift */; };
 		C3A7C8EC2B4ECA6500D3AA78 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8EB2B4ECA6500D3AA78 /* ProfileView.swift */; };
-		C3A7C8F22B4ED57800D3AA78 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7C8F12B4ED57800D3AA78 /* UINavigationController.swift */; };
 		C3B300BB2B595EED0036550E /* GlobalSheetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B300BA2B595EED0036550E /* GlobalSheetCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C3441EC22B4F358A007732EA /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		C36221D52B4D95C200BF7A9A /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36221D82B4D95C200BF7A9A /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
 		C36221DA2B4D95C200BF7A9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,19 +32,13 @@
 		C36221DF2B4D95C400BF7A9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C385FE572B4EF0D2005E58FB /* SheetContentWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentWrapper.swift; sourceTree = "<group>"; };
 		C3A7C8C92B4EB9D500D3AA78 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
-		C3A7C8CB2B4EC0D500D3AA78 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
-		C3A7C8CD2B4EC0F400D3AA78 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		C3A7C8CF2B4EC11C00D3AA78 /* ProfileViewNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewNavigationRouter.swift; sourceTree = "<group>"; };
-		C3A7C8D32B4EC64D00D3AA78 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C3A7C8D62B4EC6D800D3AA78 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
-		C3A7C8DA2B4EC76100D3AA78 /* SheetRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetRoutable.swift; sourceTree = "<group>"; };
-		C3A7C8DC2B4EC77D00D3AA78 /* SheetCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCoordinator.swift; sourceTree = "<group>"; };
 		C3A7C8E32B4ECA1000D3AA78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C3A7C8E52B4ECA2B00D3AA78 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		C3A7C8E72B4ECA3D00D3AA78 /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
 		C3A7C8E92B4ECA5100D3AA78 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		C3A7C8EB2B4ECA6500D3AA78 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		C3A7C8F12B4ED57800D3AA78 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C3B300BA2B595EED0036550E /* GlobalSheetCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSheetCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36B46BF2B5C33C200092C2A /* JJNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +76,6 @@
 				C3A7C8E02B4EC9D100D3AA78 /* View */,
 				C3A7C8DE2B4EC7C900D3AA78 /* Navigation */,
 				C3A7C8D92B4EC75200D3AA78 /* Sheet */,
-				C3A7C8D82B4EC70A00D3AA78 /* Extension */,
 				C36221D82B4D95C200BF7A9A /* NavigationApp.swift */,
 				C36221DC2B4D95C400BF7A9A /* Assets.xcassets */,
 				C36221DE2B4D95C400BF7A9A /* Preview Content */,
@@ -104,21 +91,9 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C3A7C8D82B4EC70A00D3AA78 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				C3A7C8D32B4EC64D00D3AA78 /* View.swift */,
-				C3A7C8F12B4ED57800D3AA78 /* UINavigationController.swift */,
-				C3441EC22B4F358A007732EA /* Binding.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		C3A7C8D92B4EC75200D3AA78 /* Sheet */ = {
 			isa = PBXGroup;
 			children = (
-				C3A7C8DA2B4EC76100D3AA78 /* SheetRoutable.swift */,
-				C3A7C8DC2B4EC77D00D3AA78 /* SheetCoordinator.swift */,
 				C385FE572B4EF0D2005E58FB /* SheetContentWrapper.swift */,
 			);
 			path = Sheet;
@@ -128,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				C3A7C8DF2B4EC7E400D3AA78 /* Profile */,
-				C3A7C8CD2B4EC0F400D3AA78 /* Routable.swift */,
-				C3A7C8CB2B4EC0D500D3AA78 /* NavigationRouter.swift */,
 				C3B300BA2B595EED0036550E /* GlobalSheetCoordinator.swift */,
 			);
 			path = Navigation;
@@ -182,6 +155,9 @@
 			dependencies = (
 			);
 			name = Navigation;
+			packageProductDependencies = (
+				C36B46BE2B5C33C200092C2A /* JJNavigation */,
+			);
 			productName = Navigation;
 			productReference = C36221D52B4D95C200BF7A9A /* Navigation.app */;
 			productType = "com.apple.product-type.application";
@@ -210,6 +186,9 @@
 				Base,
 			);
 			mainGroup = C36221CC2B4D95C100BF7A9A;
+			packageReferences = (
+				C36B46BD2B5C33C200092C2A /* XCRemoteSwiftPackageReference "ios_navigation_library" */,
+			);
 			productRefGroup = C36221D62B4D95C200BF7A9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,25 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A7C8D42B4EC64D00D3AA78 /* View.swift in Sources */,
-				C3A7C8CE2B4EC0F400D3AA78 /* Routable.swift in Sources */,
 				C36221DB2B4D95C200BF7A9A /* ContentView.swift in Sources */,
 				C3A7C8EA2B4ECA5100D3AA78 /* ExploreView.swift in Sources */,
 				C3A7C8D02B4EC11C00D3AA78 /* ProfileViewNavigationRouter.swift in Sources */,
-				C3A7C8CC2B4EC0D500D3AA78 /* NavigationRouter.swift in Sources */,
-				C3A7C8DD2B4EC77D00D3AA78 /* SheetCoordinator.swift in Sources */,
 				C3A7C8EC2B4ECA6500D3AA78 /* ProfileView.swift in Sources */,
 				C3A7C8CA2B4EB9D500D3AA78 /* TabCoordinator.swift in Sources */,
 				C36221D92B4D95C200BF7A9A /* NavigationApp.swift in Sources */,
 				C3A7C8E42B4ECA1000D3AA78 /* HomeView.swift in Sources */,
 				C3A7C8E62B4ECA2B00D3AA78 /* TicketsView.swift in Sources */,
-				C3A7C8DB2B4EC76100D3AA78 /* SheetRoutable.swift in Sources */,
-				C3441EC32B4F358A007732EA /* Binding.swift in Sources */,
 				C3A7C8D72B4EC6D800D3AA78 /* MainTab.swift in Sources */,
 				C3B300BB2B595EED0036550E /* GlobalSheetCoordinator.swift in Sources */,
 				C3A7C8E82B4ECA3D00D3AA78 /* PaymentsView.swift in Sources */,
 				C385FE582B4EF0D2005E58FB /* SheetContentWrapper.swift in Sources */,
-				C3A7C8F22B4ED57800D3AA78 /* UINavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C36B46BD2B5C33C200092C2A /* XCRemoteSwiftPackageReference "ios_navigation_library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/theHonzic/ios_navigation_library";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C36B46BE2B5C33C200092C2A /* JJNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C36B46BD2B5C33C200092C2A /* XCRemoteSwiftPackageReference "ios_navigation_library" */;
+			productName = JJNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C36221CD2B4D95C200BF7A9A /* Project object */;
 }

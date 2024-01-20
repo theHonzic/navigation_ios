@@ -5,6 +5,7 @@
 //  Created by Jan Janovec on 10.01.2024.
 //
 
+import JJNavigation
 import SwiftUI
 
 struct ProfileView: View {

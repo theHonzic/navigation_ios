@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios_navigation_library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/theHonzic/ios_navigation_library",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1bf74671833f92af1f21d4202e3505cd043247b7"
+      }
+    }
+  ],
+  "version" : 2
+}
