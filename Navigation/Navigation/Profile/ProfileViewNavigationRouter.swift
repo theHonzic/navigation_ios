@@ -45,5 +45,8 @@ enum ProfileNavigationViewRouter: Routable {
         }
         .navigationTitle(self.id)
         .navigationBarBackButtonHidden()
+        .background {
+            [Color.red, Color.yellow, .brown, .green, .cyan, .pink].randomElement()!.ignoresSafeArea()
+        }
     }
 }

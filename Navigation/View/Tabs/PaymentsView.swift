@@ -8,7 +8,22 @@
 import SwiftUI
 
 struct PaymentsView: View {
+    @State var height: CGFloat = 100
     var body: some View {
-        Text("Payments view")
+        Color.blue
+            .sheet(isPresented: .constant(true), content: {
+                SheetContentWrapper {
+                    Color.red
+                        .frame(height: height)
+                        .overlay(content: {
+                            Text(height.description)
+                        })
+                        .onTapGesture {
+                            withAnimation {
+                                self.height = [200, 300, 50, 100, 200].randomElement()!
+                            }
+                        }
+                }
+            })
     }
 }
